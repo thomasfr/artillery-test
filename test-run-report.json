@@ -1,9 +1,669 @@
 {
   "aggregate": {
-    "counters": {},
-    "rates": {},
-    "summaries": {},
-    "histograms": {}
+    "counters": {
+      "vusers.created_by_name.Request the /echo endpoint with GET and use the requestId for POSTing back to the same url": 21000,
+      "vusers.created": 21000,
+      "http.requests": 42000,
+      "http.codes.200": 42000,
+      "http.responses": 42000,
+      "vusers.failed": 0,
+      "vusers.completed": 21000
+    },
+    "rates": {
+      "http.request_rate": 328
+    },
+    "firstCounterAt": 1678977019313,
+    "firstHistogramAt": 1678977019368,
+    "lastCounterAt": 1678977081085,
+    "lastHistogramAt": 1678977081085,
+    "firstMetricAt": 1678977019313,
+    "lastMetricAt": 1678977081085,
+    "period": 1678977080000,
+    "summaries": {
+      "http.response_time": {
+        "min": 7,
+        "max": 240,
+        "count": 42000,
+        "p50": 13.9,
+        "median": 13.9,
+        "p75": 19.1,
+        "p90": 23.8,
+        "p95": 25.8,
+        "p99": 34.1,
+        "p999": 64.7
+      },
+      "vusers.session_length": {
+        "min": 26.5,
+        "max": 286,
+        "count": 21000,
+        "p50": 41.7,
+        "median": 41.7,
+        "p75": 47.9,
+        "p90": 54.1,
+        "p95": 58.6,
+        "p99": 71.5,
+        "p999": 102.5
+      }
+    },
+    "histograms": {
+      "http.response_time": {
+        "min": 7,
+        "max": 240,
+        "count": 42000,
+        "p50": 13.9,
+        "median": 13.9,
+        "p75": 19.1,
+        "p90": 23.8,
+        "p95": 25.8,
+        "p99": 34.1,
+        "p999": 64.7
+      },
+      "vusers.session_length": {
+        "min": 26.5,
+        "max": 286,
+        "count": 21000,
+        "p50": 41.7,
+        "median": 41.7,
+        "p75": 47.9,
+        "p90": 54.1,
+        "p95": 58.6,
+        "p99": 71.5,
+        "p999": 102.5
+      }
+    }
   },
-  "intermediate": []
+  "intermediate": [
+    {
+      "counters": {
+        "vusers.created_by_name.Request the /echo endpoint with GET and use the requestId for POSTing back to the same url": 10,
+        "vusers.created": 10,
+        "http.requests": 18,
+        "http.codes.200": 16,
+        "http.responses": 16,
+        "vusers.failed": 0,
+        "vusers.completed": 8
+      },
+      "rates": {
+        "http.request_rate": 18
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1678977019313,
+      "firstHistogramAt": 1678977019368,
+      "lastCounterAt": 1678977019983,
+      "lastHistogramAt": 1678977019916,
+      "firstMetricAt": 1678977019313,
+      "lastMetricAt": 1678977019983,
+      "period": "1678977010000",
+      "summaries": {
+        "http.response_time": {
+          "min": 15,
+          "max": 79,
+          "count": 16,
+          "p50": 21.1,
+          "median": 21.1,
+          "p75": 26.8,
+          "p90": 30.3,
+          "p95": 32.1,
+          "p99": 32.1,
+          "p999": 32.1
+        },
+        "vusers.session_length": {
+          "min": 54.8,
+          "max": 125.6,
+          "count": 8,
+          "p50": 87.4,
+          "median": 87.4,
+          "p75": 100.5,
+          "p90": 104.6,
+          "p95": 104.6,
+          "p99": 104.6,
+          "p999": 104.6
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 15,
+          "max": 79,
+          "count": 16,
+          "p50": 21.1,
+          "median": 21.1,
+          "p75": 26.8,
+          "p90": 30.3,
+          "p95": 32.1,
+          "p99": 32.1,
+          "p999": 32.1
+        },
+        "vusers.session_length": {
+          "min": 54.8,
+          "max": 125.6,
+          "count": 8,
+          "p50": 87.4,
+          "median": 87.4,
+          "p75": 100.5,
+          "p90": 104.6,
+          "p95": 104.6,
+          "p99": 104.6,
+          "p999": 104.6
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.Request the /echo endpoint with GET and use the requestId for POSTing back to the same url": 477,
+        "vusers.created": 477,
+        "http.requests": 955,
+        "http.codes.200": 954,
+        "http.responses": 954,
+        "vusers.failed": 0,
+        "vusers.completed": 476
+      },
+      "rates": {
+        "http.request_rate": 100
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1678977020017,
+      "firstHistogramAt": 1678977020017,
+      "lastCounterAt": 1678977029996,
+      "lastHistogramAt": 1678977029996,
+      "firstMetricAt": 1678977020017,
+      "lastMetricAt": 1678977029996,
+      "period": "1678977020000",
+      "summaries": {
+        "http.response_time": {
+          "min": 9,
+          "max": 240,
+          "count": 954,
+          "p50": 16,
+          "median": 16,
+          "p75": 19.1,
+          "p90": 22.9,
+          "p95": 26.8,
+          "p99": 39.3,
+          "p999": 73
+        },
+        "vusers.session_length": {
+          "min": 30.7,
+          "max": 286,
+          "count": 476,
+          "p50": 46.1,
+          "median": 46.1,
+          "p75": 53,
+          "p90": 59.7,
+          "p95": 73,
+          "p99": 96.6,
+          "p999": 108.9
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 9,
+          "max": 240,
+          "count": 954,
+          "p50": 16,
+          "median": 16,
+          "p75": 19.1,
+          "p90": 22.9,
+          "p95": 26.8,
+          "p99": 39.3,
+          "p999": 73
+        },
+        "vusers.session_length": {
+          "min": 30.7,
+          "max": 286,
+          "count": 476,
+          "p50": 46.1,
+          "median": 46.1,
+          "p75": 53,
+          "p90": 59.7,
+          "p95": 73,
+          "p99": 96.6,
+          "p999": 108.9
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.Request the /echo endpoint with GET and use the requestId for POSTing back to the same url": 1568,
+        "vusers.created": 1568,
+        "http.requests": 3130,
+        "http.codes.200": 3122,
+        "http.responses": 3122,
+        "vusers.failed": 0,
+        "vusers.completed": 1560
+      },
+      "rates": {
+        "http.request_rate": 317
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1678977030001,
+      "firstHistogramAt": 1678977030001,
+      "lastCounterAt": 1678977039998,
+      "lastHistogramAt": 1678977039997,
+      "firstMetricAt": 1678977030001,
+      "lastMetricAt": 1678977039998,
+      "period": "1678977030000",
+      "summaries": {
+        "http.response_time": {
+          "min": 9,
+          "max": 65,
+          "count": 3122,
+          "p50": 13.9,
+          "median": 13.9,
+          "p75": 16.9,
+          "p90": 22,
+          "p95": 24.8,
+          "p99": 32.1,
+          "p999": 47.9
+        },
+        "vusers.session_length": {
+          "min": 29.6,
+          "max": 98,
+          "count": 1560,
+          "p50": 40.9,
+          "median": 40.9,
+          "p75": 46.1,
+          "p90": 51.9,
+          "p95": 56.3,
+          "p99": 67.4,
+          "p999": 85.6
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 9,
+          "max": 65,
+          "count": 3122,
+          "p50": 13.9,
+          "median": 13.9,
+          "p75": 16.9,
+          "p90": 22,
+          "p95": 24.8,
+          "p99": 32.1,
+          "p999": 47.9
+        },
+        "vusers.session_length": {
+          "min": 29.6,
+          "max": 98,
+          "count": 1560,
+          "p50": 40.9,
+          "median": 40.9,
+          "p75": 46.1,
+          "p90": 51.9,
+          "p95": 56.3,
+          "p99": 67.4,
+          "p999": 85.6
+        }
+      }
+    },
+    {
+      "counters": {
+        "vusers.created_by_name.Request the /echo endpoint with GET and use the requestId for POSTing back to the same url": 3925,
+        "vusers.created": 3925,
+        "http.requests": 7843,
+        "http.codes.200": 7834,
+        "http.responses": 7834,
+        "vusers.failed": 0,
+        "vusers.completed": 3914
+      },
+      "rates": {
+        "http.request_rate": 789
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1678977040000,
+      "firstHistogramAt": 1678977040000,
+      "lastCounterAt": 1678977049999,
+      "lastHistogramAt": 1678977049997,
+      "firstMetricAt": 1678977040000,
+      "lastMetricAt": 1678977049999,
+      "period": "1678977040000",
+      "summaries": {
+        "http.response_time": {
+          "min": 7,
+          "max": 122,
+          "count": 7834,
+          "p50": 13.9,
+          "median": 13.9,
+          "p75": 19.1,
+          "p90": 23.8,
+          "p95": 25.8,
+          "p99": 34.8,
+          "p999": 66
+        },
+        "vusers.session_length": {
+          "min": 27.7,
+          "max": 147,
+          "count": 3914,
+          "p50": 41.7,
+          "median": 41.7,
+          "p75": 47.9,
+          "p90": 54.1,
+          "p95": 58.6,
+          "p99": 73,
+          "p999": 115.6
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 7,
+          "max": 122,
+          "count": 7834,
+          "p50": 13.9,
+          "median": 13.9,
+          "p75": 19.1,
+          "p90": 23.8,
+          "p95": 25.8,
+          "p99": 34.8,
+          "p999": 66
+        },
+        "vusers.session_length": {
+          "min": 27.7,
+          "max": 147,
+          "count": 3914,
+          "p50": 41.7,
+          "median": 41.7,
+          "p75": 47.9,
+          "p90": 54.1,
+          "p95": 58.6,
+          "p99": 73,
+          "p999": 115.6
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.codes.200": 9997,
+        "http.responses": 9997,
+        "http.requests": 9996,
+        "vusers.created_by_name.Request the /echo endpoint with GET and use the requestId for POSTing back to the same url": 4998,
+        "vusers.created": 4998,
+        "vusers.failed": 0,
+        "vusers.completed": 5000
+      },
+      "rates": {
+        "http.request_rate": 1000
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1678977050000,
+      "firstHistogramAt": 1678977050002,
+      "lastCounterAt": 1678977059999,
+      "lastHistogramAt": 1678977059997,
+      "firstMetricAt": 1678977050000,
+      "lastMetricAt": 1678977059999,
+      "period": "1678977050000",
+      "summaries": {
+        "http.response_time": {
+          "min": 9,
+          "max": 130,
+          "count": 9997,
+          "p50": 13.9,
+          "median": 13.9,
+          "p75": 19.1,
+          "p90": 23.8,
+          "p95": 25.8,
+          "p99": 34.8,
+          "p999": 64.7
+        },
+        "vusers.session_length": {
+          "min": 27,
+          "max": 159.9,
+          "count": 5000,
+          "p50": 41.7,
+          "median": 41.7,
+          "p75": 47.9,
+          "p90": 54.1,
+          "p95": 58.6,
+          "p99": 71.5,
+          "p999": 100.5
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 9,
+          "max": 130,
+          "count": 9997,
+          "p50": 13.9,
+          "median": 13.9,
+          "p75": 19.1,
+          "p90": 23.8,
+          "p95": 25.8,
+          "p99": 34.8,
+          "p999": 64.7
+        },
+        "vusers.session_length": {
+          "min": 27,
+          "max": 159.9,
+          "count": 5000,
+          "p50": 41.7,
+          "median": 41.7,
+          "p75": 47.9,
+          "p90": 54.1,
+          "p95": 58.6,
+          "p99": 71.5,
+          "p999": 100.5
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.codes.200": 10002,
+        "http.responses": 10002,
+        "http.requests": 10001,
+        "vusers.created_by_name.Request the /echo endpoint with GET and use the requestId for POSTing back to the same url": 5001,
+        "vusers.created": 5001,
+        "vusers.failed": 0,
+        "vusers.completed": 5001
+      },
+      "rates": {
+        "http.request_rate": 1000
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1678977060000,
+      "firstHistogramAt": 1678977060000,
+      "lastCounterAt": 1678977069999,
+      "lastHistogramAt": 1678977069998,
+      "firstMetricAt": 1678977060000,
+      "lastMetricAt": 1678977069999,
+      "period": "1678977060000",
+      "summaries": {
+        "http.response_time": {
+          "min": 8,
+          "max": 104,
+          "count": 10002,
+          "p50": 13.9,
+          "median": 13.9,
+          "p75": 19.1,
+          "p90": 23.8,
+          "p95": 25.8,
+          "p99": 32.8,
+          "p999": 55.2
+        },
+        "vusers.session_length": {
+          "min": 27.3,
+          "max": 137.7,
+          "count": 5001,
+          "p50": 41.7,
+          "median": 41.7,
+          "p75": 47,
+          "p90": 53,
+          "p95": 57.4,
+          "p99": 70.1,
+          "p999": 92.8
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 8,
+          "max": 104,
+          "count": 10002,
+          "p50": 13.9,
+          "median": 13.9,
+          "p75": 19.1,
+          "p90": 23.8,
+          "p95": 25.8,
+          "p99": 32.8,
+          "p999": 55.2
+        },
+        "vusers.session_length": {
+          "min": 27.3,
+          "max": 137.7,
+          "count": 5001,
+          "p50": 41.7,
+          "median": 41.7,
+          "p75": 47,
+          "p90": 53,
+          "p95": 57.4,
+          "p99": 70.1,
+          "p999": 92.8
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.codes.200": 9731,
+        "http.responses": 9731,
+        "http.requests": 9725,
+        "vusers.created_by_name.Request the /echo endpoint with GET and use the requestId for POSTing back to the same url": 4858,
+        "vusers.created": 4858,
+        "vusers.failed": 0,
+        "vusers.completed": 4865
+      },
+      "rates": {
+        "http.request_rate": 1000
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1678977070000,
+      "firstHistogramAt": 1678977070000,
+      "lastCounterAt": 1678977079999,
+      "lastHistogramAt": 1678977079998,
+      "firstMetricAt": 1678977070000,
+      "lastMetricAt": 1678977079999,
+      "period": "1678977070000",
+      "summaries": {
+        "http.response_time": {
+          "min": 8,
+          "max": 88,
+          "count": 9731,
+          "p50": 13.9,
+          "median": 13.9,
+          "p75": 19.1,
+          "p90": 23.8,
+          "p95": 25.8,
+          "p99": 32.8,
+          "p999": 56.3
+        },
+        "vusers.session_length": {
+          "min": 26.5,
+          "max": 121.9,
+          "count": 4865,
+          "p50": 41.7,
+          "median": 41.7,
+          "p75": 47,
+          "p90": 53,
+          "p95": 57.4,
+          "p99": 68.7,
+          "p999": 98.5
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 8,
+          "max": 88,
+          "count": 9731,
+          "p50": 13.9,
+          "median": 13.9,
+          "p75": 19.1,
+          "p90": 23.8,
+          "p95": 25.8,
+          "p99": 32.8,
+          "p999": 56.3
+        },
+        "vusers.session_length": {
+          "min": 26.5,
+          "max": 121.9,
+          "count": 4865,
+          "p50": 41.7,
+          "median": 41.7,
+          "p75": 47,
+          "p90": 53,
+          "p95": 57.4,
+          "p99": 68.7,
+          "p999": 98.5
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.codes.200": 344,
+        "http.responses": 344,
+        "vusers.failed": 0,
+        "vusers.completed": 176,
+        "vusers.created_by_name.Request the /echo endpoint with GET and use the requestId for POSTing back to the same url": 163,
+        "vusers.created": 163,
+        "http.requests": 332
+      },
+      "rates": {
+        "http.request_rate": 328
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1678977080000,
+      "firstHistogramAt": 1678977080003,
+      "lastCounterAt": 1678977081085,
+      "lastHistogramAt": 1678977081085,
+      "firstMetricAt": 1678977080000,
+      "lastMetricAt": 1678977081085,
+      "period": "1678977080000",
+      "summaries": {
+        "http.response_time": {
+          "min": 9,
+          "max": 42,
+          "count": 344,
+          "p50": 13.9,
+          "median": 13.9,
+          "p75": 16.9,
+          "p90": 21.1,
+          "p95": 23.8,
+          "p99": 30.9,
+          "p999": 40
+        },
+        "vusers.session_length": {
+          "min": 32.5,
+          "max": 65.4,
+          "count": 176,
+          "p50": 39.3,
+          "median": 39.3,
+          "p75": 46.1,
+          "p90": 49.9,
+          "p95": 54.1,
+          "p99": 62.2,
+          "p999": 63.4
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 9,
+          "max": 42,
+          "count": 344,
+          "p50": 13.9,
+          "median": 13.9,
+          "p75": 16.9,
+          "p90": 21.1,
+          "p95": 23.8,
+          "p99": 30.9,
+          "p999": 40
+        },
+        "vusers.session_length": {
+          "min": 32.5,
+          "max": 65.4,
+          "count": 176,
+          "p50": 39.3,
+          "median": 39.3,
+          "p75": 46.1,
+          "p90": 49.9,
+          "p95": 54.1,
+          "p99": 62.2,
+          "p999": 63.4
+        }
+      }
+    }
+  ]
 }
