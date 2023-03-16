@@ -47,3 +47,8 @@ artillery run scripts/simple.yml
 ```
 AWS_SDK_LOAD_CONFIG=1 artillery run --platform aws:lambda --platform-opt region=eu-central-1 --count 25 scripts/simple.yml
 ```
+
+### Save report as JSON
+```
+AWS_SDK_LOAD_CONFIG=1 artillery run --platform aws:lambda --platform-opt region=eu-central-1 --count 25 --output test-run-report.json scripts/simple.yml
+```

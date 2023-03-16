@@ -8,14 +8,19 @@ config:
       arrivalRate: 5
       rampTo: 50
       name: Ramp up load
-    - duration: 60
+    - duration: 30
       arrivalRate: 50
       name: Sustained load
 
 scenarios:
-  - name: "Request the echo endpoint with GET and POST"
+  - name: "Request the /echo endpoint with GET and use the requestId for POSTing back to the same url"
     flow:
       - get:
-          url: "/echo"
+          url: "/echo?foo=bar"
+          capture:
+            - json: "$.requestContext.requestId"
+              as: "requestId"
       - post:
-          url: "/echo"          
+          url: "/echo"
+          json:
+            request_id: "{{ requestId }}"
