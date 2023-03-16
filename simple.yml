@@ -1,0 +1,21 @@
+config:
+  target: "https://z3p7uq7zrk.execute-api.eu-central-1.amazonaws.com"
+  phases:
+    - duration: 10
+      arrivalRate: 5
+      name: Warm up
+    - duration: 20
+      arrivalRate: 5
+      rampTo: 50
+      name: Ramp up load
+    - duration: 60
+      arrivalRate: 50
+      name: Sustained load
+
+scenarios:
+  - name: "Request the echo endpoint with GET and POST"
+    flow:
+      - get:
+          url: "/echo"
+      - post:
+          url: "/echo"          
